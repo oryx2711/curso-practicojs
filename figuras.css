@@ -1,0 +1,98 @@
+/* general */
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+
+
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.columna {
+    display:flex;
+    flex-direction: column;
+    height: 600px;
+    width: 90%;
+    padding: 2rem;
+    width: 25%;
+    overflow: hidden;
+    transition: width .3s ease-in-out;
+
+}
+.columna.activa {
+    width: 50%;
+}
+.cuadrado  {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 8px 0 0 8px;
+}
+
+.triangulo {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.circulo {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 8px 8px 0;
+}
+
+label{
+    margin: 12px;
+}
+
+input{
+    margin:12px;
+}
+
+
+.cuadrado button {
+    margin:12px;
+    background-color:  hsl(31, 77%, 52%);
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.triangulo button {
+    margin:12px;
+    background-color:   hsl(184, 100%, 22%);
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.circulo button  {
+    margin: 12px;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 8px;
+    cursor: pointer;
+   font-weight: bolder;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
